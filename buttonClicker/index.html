@@ -12,8 +12,10 @@
 <body>
   <nav class="nav-bar">
     <h1>Dojonary</h1>
-    <input type="text" placeholder="Search" id="search-bar">
-    <input type="button" value="Login" id="login-btn">
+    <div>
+      <input type="text" placeholder="Search" id="search-bar">
+      <input type="button" id="login-btn" onclick="logButton(this)" value="Login">
+    </div>
   </nav>
 
   <div class="main-body">
@@ -25,7 +27,7 @@
             <p><strong><em>noun</em></strong></p>
             <p>Plural: <em>ninjas</em></p>
           </div>
-          <p class="likes-box">13 likes</p>
+          <p class="likes-box" onclick="alert('Ninja was liked')">13 likes</p>
         </div>
         <div class="right-card cent-vert-text">
           <p class="definition">A parctitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a>
@@ -39,7 +41,7 @@
             <p><strong><em>noun</em></strong></p>
             <p>Plural: <em>ninjas</em></p>
           </div>
-          <p class="likes-box">37 likes</p>
+          <p class="likes-box" onclick="alert('Ninja was liked')">37 likes</p>
         </div>
         <div class="right-card cent-vert-text">
           <p class="definition">A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like
@@ -51,7 +53,7 @@
     <div class="col-right">
       <div class="card">
         <p id="define-word-title">Dojonary is defined by <strong>YOU</strong></p>
-        <p class="add-definition-box">Add Definition</p>
+        <button class="add-definition-box" onclick="addDefButton(this)">Add Definition</button>
       </div>
     </div>
 
