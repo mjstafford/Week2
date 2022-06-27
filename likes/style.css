@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  border: 3px solid black;
+  width: 480px;
+  margin: 30px auto 0px auto;
+  padding: 10px 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header>div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+.card>p {
+  font-size: 1.5rem;
+}
+
+#likes {
+  font-size: 1.3rem;
+}
+
+button {
+  background-color: gold;
+  border: 2px solid black;
+  box-shadow: 3px 3px black;
+  padding: 5px 10px;
+  font-size: 1.1rem;
+}
