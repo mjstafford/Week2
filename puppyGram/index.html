@@ -15,7 +15,7 @@
     <h1>PuppyGram</h1>
     <div>
       <input type="text" placeholder="Search a puppy name">
-      <button>Search!</button>
+      <button onclick="removeElement(this)">Search!</button>
     </div>
     <button>Login</button>
   </div>
@@ -54,11 +54,12 @@
     <div class="col-r">
       <div id="upload">
         <p>Please upload your pup info to our puppy social media.</p>
-        <button>Upload new Pup!</button>
+        <button onclick="uploadPup(this)">Upload new Pup!</button>
       </div>
       <div id="video-box">
         <p>Our popular video of the week!</p>
-        <video width="100%" src="./resources/puppy_video.mp4" controls muted autoplay loop></video>
+        <video width="100%" src="./resources/puppy_video.mp4" controls muted autoplay loop
+          onmouseover="pauseVideo(this)" onmouseleave="playVideo(this)"></video>
         <p><em>This is Josie, the playful becah dog!</em></p>
       </div>
     </div>
@@ -69,7 +70,7 @@
     <img src="./resources/caution.jpeg" alt="caution">
     <p>This site will track all your information and sell it. You will get some dopamine hits from scrolling and being a
       zombie though. Please accept this cookie.</p>
-    <button>I accept</button>
+    <button onclick="removeCookie()">I accept</button>
   </div>
 
   <script src="script.js"></script>

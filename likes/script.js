@@ -1,15 +1,14 @@
-// var count = 4
-
 // part 1: (no "this" used in part 1)
+// var count = 4
 // function increaseLikes() {
-//   let likesTag = document.querySelector("#likes")
+//   let likesTag = document.querySelector("#likes1")
 //   likesTag.innerText = `${count} like(s)`
 //   count++
 // }
 
+//part 2 covers all updates to likes:
 let counts = [4, 12, 9]
 
-//part 2:
 function increaseLikes(element) {
   //find sibling of current element clicked
   let previousSibling = element.previousElementSibling
