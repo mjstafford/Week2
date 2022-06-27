@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Forecast</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>DojoWeather</h1>
+    <ul id="cities">
+      <li>Burbank</li>
+      <li>Chicago</li>
+      <li>Dallas</li>
+    </ul>
+  </header>
+
+  <main>
+    <div id="main-header">
+      <h2 id="current-city">San Jose</h2>
+      <div id="tempCorF">
+        <p>show temperature in</p>
+        <select name="temp" id="temp">
+          <option value="C">&deg;C</option>
+          <option value="F">&deg;F</option>
+        </select>
+      </div>
+    </div>
+    <hr>
+
+    <div id="main-content">
+      <div class="weather-card">
+        <h2>Today</h2>
+        <img src="./assets/some_rain.png" alt="some rain image">
+        <p>some rain</p>
+        <p id="high-temp">24<span>&deg;C</span></p>
+        <p id="low-temp">18<span>&deg;C</span></p>
+      </div>
+    </div>
+  </main>
+
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
