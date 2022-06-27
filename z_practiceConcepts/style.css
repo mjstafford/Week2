@@ -1,0 +1,80 @@
+/* Normalize / Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* /////////////////// */
+/* creating boxes representing content  */
+/* /////////////////// */
+
+.small-rectangle {
+  height: 50px;
+  width: 100px;
+  background-color: orange;
+  border: 2px dotted black;
+}
+
+.medium-rectangle {
+  height: 100px;
+  width: 200px;
+  background-color: orange;
+  border: 2px dashed black;
+}
+
+.large-rectangle {
+  height: 150px;
+  width: 300px;
+  background-color: orange;
+  border: 4px dotted black;
+}
+
+.tall-rectangle {
+  height: 600px;
+  width: 400px;
+  background-color: orange;
+  border: 4px dashed black;
+}
+
+.large-square {
+  height: 400px;
+  width: 400px;
+  background-color: orange;
+  border: 4px dashed black;
+}
+
+/* /////////////////// */
+/* testing area */
+/* /////////////////// */
+.nav-bar {
+  height: 200px;
+  border: 5px solid red;
+  background-color: lightcoral;
+
+  padding: 0 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.main-body {
+  height: 1000px;
+  border: 5px solid blue;
+  background-color: lightskyblue;
+
+
+  padding: 20px 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-l>* {
+  margin-bottom: 20px;
+}
