@@ -10,15 +10,53 @@
 </head>
 
 <body>
-  <div class="card">
-    <div class="header">
-      <h1>Some User</h1>
-      <div>
-        <p id="likes">3 like(s)</p>
-        <button onclick="increaseLikes()">Like</button>
+  <header>
+    <h2>Network</h2>
+  </header>
+  <h1>Your Feed</h1>
+  <div id="main-content">
+    <div class="col-left">
+      <div class="profile-card">
+        <img src="userImg.svg" alt="user icon">
+        <a href="#" id="avatar-link">Add an avatar</a>
+        <h2>James Doe</h2>
       </div>
     </div>
-    <p>This is some filler text, it can say anything we like</p>
+    <div class="col-right">
+      <div class="card">
+        <div class="card-header">
+          <h2>Neil M</h2>
+          <div>
+            <p id="likes1">4 like(s)</p>
+            <button onclick="increaseLikes(this)">Like</button>
+          </div>
+        </div>
+        <p>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <h2>Nichole K</h2>
+          <div>
+            <p id="likes2">12 like(s)</p>
+            <button onclick="increaseLikes(this)">Like</button>
+          </div>
+        </div>
+        <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <h2>Jim R</h2>
+          <div>
+            <p id="likes3">9 like(s)</p>
+            <button onclick="increaseLikes(this)">Like</button>
+          </div>
+        </div>
+        <p>I can't stop listening to the <a href="#">new album</a>. Who else is like it?</p>
+      </div>
+
+    </div>
   </div>
 
 
