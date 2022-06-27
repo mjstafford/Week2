@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PuppyGram</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- navbar -->
+  <div id="nav-bar">
+    <h1>PuppyGram</h1>
+    <div>
+      <input type="text" placeholder="Search a puppy name">
+      <button>Search!</button>
+    </div>
+    <button>Login</button>
+  </div>
+
+  <!-- main content area -->
+  <div id="main">
+    <div class="col-l">
+      <div class="puppy">
+        <div class="puppy-l">
+          <img src="./resources/puppy.jpeg" alt="puppy image">
+          <h3>Junior</h3>
+          <p><em>Male</em></p>
+          <p>Breed: <em>Fox</em></p>
+          <button>10 likes</button>
+        </div>
+
+        <div class="puppy-r">
+          <p>Junior is a very spontanerous, high-energy <a href="#">Fox</a> who loves to eat food</p>
+        </div>
+      </div>
+      <div class="puppy">
+        <div class="puppy-l">
+          <img src="./resources/beagle.jpeg" alt="puppy image">
+          <h3>Fluffy</h3>
+          <p><em>Female</em></p>
+          <p>Breed: <em>Beagle</em></p>
+          <button>8 likes</button>
+        </div>
+
+        <div class="puppy-r">
+          <p>Fluffy is quite, shy, and calm <a href="#">Beagle</a> who loves to eat and play fetch</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-r">
+      <div id="upload">
+        <p>Please upload your pup info to our puppy social media.</p>
+        <button>Upload new Pup!</button>
+      </div>
+      <div id="video-box">
+        <p>Our popular video of the week!</p>
+        <video width="100%" src="./resources/puppy_video.mp4" controls muted autoplay loop></video>
+        <p><em>This is Josie, the playful becah dog!</em></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
