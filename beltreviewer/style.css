@@ -206,7 +206,12 @@ h2 {
   color: white;
 }
 
-.hover-btn:hover {
-  background-color: blueviolet !important;
+#cookie>button:hover {
+  background-color: blueviolet;
   cursor: pointer;
 }
+
+/* .hover-btn:hover {
+  background-color: blueviolet !important;
+  cursor: pointer;
+} */
