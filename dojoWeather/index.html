@@ -13,9 +13,9 @@
   <header>
     <h1>DojoWeather</h1>
     <ul id="cities">
-      <li>Burbank</li>
-      <li>Chicago</li>
-      <li>Dallas</li>
+      <li onclick="alert('Loading weather report...')">Burbank</li>
+      <li onclick="alert('Loading weather report...')">Chicago</li>
+      <li onclick="alert('Loading weather report...')">Dallas</li>
     </ul>
   </header>
 
@@ -24,7 +24,7 @@
       <h2 id="current-city">San Jose</h2>
       <div id="tempCorF">
         <p>show temperature in</p>
-        <select name="temp" id="temp">
+        <select name="temp" id="temp" onchange="updateTemp(this)">
           <option value="C">&deg;C</option>
           <option value="F">&deg;F</option>
         </select>
@@ -37,9 +37,9 @@
         <h2>Today</h2>
         <img src="./assets/some_rain.png" alt="some rain image">
         <p>some rain</p>
-        <div id="high-low-temps">
-          <p id="high-temp">24<span>&deg;C</span></p>
-          <p id="low-temp">18<span>&deg;C</span></p>
+        <div class="high-low-temps">
+          <p class="high-temp">24 <span class="hot-degree">&deg;</span></p>
+          <p class="low-temp">18 <span class="cold-degree">&deg;</span></p>
         </div>
       </div>
 
@@ -47,9 +47,9 @@
         <h2>Tomorrow</h2>
         <img src="./assets/some_sun.png" alt="some sun image">
         <p>some sun</p>
-        <div id="high-low-temps">
-          <p id="high-temp">27<span>&deg;C</span></p>
-          <p id="low-temp">19<span>&deg;C</span></p>
+        <div class="high-low-temps">
+          <p class="high-temp">27 <span class="hot-degree">&deg;</span></p>
+          <p class="low-temp">19 <span class="cold-degree">&deg;</span></p>
         </div>
       </div>
 
@@ -57,9 +57,9 @@
         <h2>Friday</h2>
         <img src="./assets/some_clouds.png" alt="some clouds image">
         <p>some clouds</p>
-        <div id="high-low-temps">
-          <p id="high-temp">21<span>&deg;C</span></p>
-          <p id="low-temp">16<span>&deg;C</span></p>
+        <div class="high-low-temps">
+          <p class="high-temp">21 <span class="hot-degree">&deg;</span></p>
+          <p class="low-temp">16 <span class="cold-degree">&deg;</span></p>
         </div>
       </div>
 
@@ -67,21 +67,21 @@
         <h2>Saturday</h2>
         <img src="./assets/some_sun.png" alt="some sun image">
         <p>some sun</p>
-        <div id="high-low-temps">
-          <p id="high-temp">26<span>&deg;C</span></p>
-          <p id="low-temp">21<span>&deg;C</span></p>
+        <div class="high-low-temps">
+          <p class="high-temp">26 <span class="hot-degree">&deg;</span></p>
+          <p class="low-temp">21 <span class="cold-degree">&deg;</span></p>
         </div>
       </div>
     </div>
   </main>
 
-  <div id="cookie">
+  <!-- <div id="cookie">
     <img src="./assets/cookie.png" alt="cookie image">
     <p><strong id="cookie-title">Stop! Cookie time</strong><br>We use cookies (sadly not the edible ones) to personalize
       content and ads,
       to provide social media features and to analyse our traffice. <a href="#">Read more...</a></p>
-    <button>I Accept</button>
-  </div>
+    <button onclick="hideBox()">I Accept</button>
+  </div> -->
 
 
 

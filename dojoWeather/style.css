@@ -98,19 +98,22 @@ hr {
   margin-bottom: 10px;
 }
 
-#high-low-temps {
+.high-low-temps {
   display: flex;
-  justify-content: space-between
+  justify-content: space-between;
+  margin-top: 30px
 }
 
-#high-temp {
-  font-size: 1.2rem;
+.high-temp,
+.hot-degree {
+  font-size: 1.4rem;
   font-weight: bold;
   color: red
 }
 
-#low-temp {
-  font-size: 1.2rem;
+.low-temp,
+.cold-degree {
+  font-size: 1.4rem;
   font-weight: bold;
   color: blue
 }
