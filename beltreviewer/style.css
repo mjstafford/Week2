@@ -8,6 +8,7 @@ body {
   margin: 10px 40px;
 }
 
+
 /* header */
 header {
   display: flex;
@@ -203,4 +204,9 @@ h2 {
 #cookie>button {
   background-color: blue;
   color: white;
+}
+
+.hover-btn:hover {
+  background-color: blueviolet !important;
+  cursor: pointer;
 }
