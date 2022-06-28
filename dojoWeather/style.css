@@ -71,3 +71,84 @@ hr {
 }
 
 /* end of main-seciton header */
+
+/* main weather area */
+#main-content {
+  display: flex;
+  justify-content: space-between
+}
+
+.weather-card {
+  background-color: #EEEEEE;
+  text-align: center;
+  padding: 20px;
+}
+
+.weather-card>img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.weather-card>h2 {
+  font-size: 1.7rem;
+}
+
+.weather-card>* {
+  margin-bottom: 10px;
+}
+
+#high-low-temps {
+  display: flex;
+  justify-content: space-between
+}
+
+#high-temp {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: red
+}
+
+#low-temp {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: blue
+}
+
+/* main weather area end */
+
+/* cookie  */
+#cookie {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  margin: 0 10%;
+  padding: 10px 20px;
+  border: 3px solid black;
+  background-color: #EEEEEE;
+
+  position: fixed;
+  top: 55%;
+}
+
+#cookie>p {
+  font-size: 1.2rem;
+  flex: 4;
+}
+
+button {
+  background-color: #96BAEA;
+  border: 2px solid black;
+  box-shadow: 3px 3px black;
+  flex: .5;
+  padding: 5px 10px;
+  font-size: 1.1rem;
+  min-width: fit-content;
+}
+
+#cookie-title {
+  font-size: 1.5rem;
+}
+
+/* cookie end */
