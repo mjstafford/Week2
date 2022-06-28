@@ -118,6 +118,12 @@ hr {
   color: blue
 }
 
+.high-temp::after,
+.low-temp::after {
+  content: "\00b0";
+}
+
+
 /* main weather area end */
 
 /* cookie  */

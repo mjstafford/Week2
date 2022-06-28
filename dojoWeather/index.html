@@ -24,7 +24,7 @@
       <h2 id="current-city">San Jose</h2>
       <div id="tempCorF">
         <p>show temperature in</p>
-        <select name="temp" id="temp" onchange="updateTemp(this)">
+        <select name="temp" id="temp" onchange="refactoredUpdateTemp(this)">
           <option value="C">&deg;C</option>
           <option value="F">&deg;F</option>
         </select>
@@ -39,8 +39,10 @@
         <p>some rain</p>
         <div class="high-low-temps">
           <!-- should have put the number in the span(with id) because its easier to target what we ARE changing...not what we are not as below -->
-          <p class="high-temp">24 <span class="hot-degree">&deg;</span></p>
-          <p class="low-temp">18 <span class="cold-degree">&deg;</span></p>
+          <!-- <p class="high-temp">24 <span class="hot-degree">&deg;</span></p>
+          <p class="low-temp">18 <span class="cold-degree">&deg;</span></p> -->
+          <p class="high-temp">24</p>
+          <p class="low-temp">18</p>
         </div>
       </div>
 
@@ -49,8 +51,10 @@
         <img src="./assets/some_sun.png" alt="some sun image">
         <p>some sun</p>
         <div class="high-low-temps">
-          <p class="high-temp">27 <span class="hot-degree">&deg;</span></p>
-          <p class="low-temp">19 <span class="cold-degree">&deg;</span></p>
+          <!-- <p class="high-temp">27 <span class="hot-degree">&deg;</span></p>
+          <p class="low-temp">19 <span class="cold-degree">&deg;</span></p> -->
+          <p class="high-temp">27</p>
+          <p class="low-temp">19</p>
         </div>
       </div>
 
@@ -59,8 +63,10 @@
         <img src="./assets/some_clouds.png" alt="some clouds image">
         <p>some clouds</p>
         <div class="high-low-temps">
-          <p class="high-temp">21 <span class="hot-degree">&deg;</span></p>
-          <p class="low-temp">16 <span class="cold-degree">&deg;</span></p>
+          <!-- <p class="high-temp">21 <span class="hot-degree">&deg;</span></p>
+          <p class="low-temp">16 <span class="cold-degree">&deg;</span></p> -->
+          <p class="high-temp">21</p>
+          <p class="low-temp">16</p>
         </div>
       </div>
 
@@ -69,8 +75,10 @@
         <img src="./assets/some_sun.png" alt="some sun image">
         <p>some sun</p>
         <div class="high-low-temps">
-          <p class="high-temp">26 <span class="hot-degree">&deg;</span></p>
-          <p class="low-temp">21 <span class="cold-degree">&deg;</span></p>
+          <!-- <p class="high-temp">26 <span class="hot-degree">&deg;</span></p>
+          <p class="low-temp">21 <span class="cold-degree">&deg;</span></p> -->
+          <p class="high-temp">26</p>
+          <p class="low-temp">21</p>
         </div>
       </div>
     </div>
