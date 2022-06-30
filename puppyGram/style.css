@@ -63,12 +63,7 @@ h1 {
   margin-bottom: 30px;
 }
 
-/* .puppy-l,
-.puppy-r {
-  /* outline: 2px solid purple; */
-}
-
-*/ .puppy-l {
+.puppy-l {
   flex: 1;
   text-align: center;
   margin-right: 30px;

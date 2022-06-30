@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 50px 20px;
+
+}
+
+#calculator {
+  width: 16rem;
+  margin: 0 auto;
+  text-align: center;
+  border: 2px solid black;
+  background-color: rgb(107, 88, 81);
+}
+
+.row :last-child {
+  background-color: orange;
+}
+
+#calculator>:last-child button {
+  width: 14rem;
+  background-color: aquamarine;
+}
+
+.row>* {
+  width: 3rem;
+  height: 2rem;
+  margin: .2rem;
+  border-radius: .5rem;
+  font-size: 1rem;
+}
+
+#display {
+  background-color: white;
+  margin: 1rem 1rem;
+  text-align: end;
+  padding-right: 1rem;
+}
