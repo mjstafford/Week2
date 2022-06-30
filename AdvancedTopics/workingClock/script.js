@@ -18,6 +18,4 @@ setInterval(function () {
   secondsHand.style.transform = `rotate(${secondsDegree}deg)`
   minutesHand.style.transform = `rotate(${minutesDegree}deg)`
   hourHand.style.transform = `rotate(${hourDegree}deg)`
-
-  secondsDegree += 6
 }, 1000);
