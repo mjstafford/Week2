@@ -45,6 +45,7 @@ function howMany(i, j, element) {
     }
   }
   console.log(sum)
+  element.innerText = sum
   alert(`There are ${sum} ninjas near you!`)
 }
 
